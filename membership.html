@@ -1,0 +1,129 @@
+<html>
+<head><title>log in</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+background-color: lightblue;
+}
+ 
+.wrap{
+    background-color:thistle;
+    height:550px;
+    max-width:300px;
+    margin:auto;
+    margin-top:50px;
+    font-family:sans-serif;
+    border-radius:10px;
+
+}
+.wrap h2{
+font-size: 2em;
+text-allign: center;
+}
+button{
+padding:10px;
+width:45%;
+box-sizing:border-box;
+border:none;
+font-size: 1.3em;
+border-radius: 3px;
+font-weight:bold;
+}
+button a{
+text-decoration:none;
+color:#fff;
+}
+button:nth-child(1) {
+background:purple;
+}
+button:nth-child(2) {
+background:green;
+}
+button:hover{
+background:rgba(0,0,0,0.6);
+
+}
+
+.fa{
+font-size:1.3em;
+font-weight:bold;
+}
+form{
+margin-top: 30px;
+}
+input[type=text],input[type=password],input[type=submit]{
+width: 90%;
+border-radius:5px;
+font-size:17px;
+border:2px solid #aaa;
+margin-bottom: 10px;
+outline: none;
+padding: 10px;
+box-sizing: border-box;
+transiton:.3s; 
+}
+input[type=text]:hover{
+border-color:dodgerblue;
+box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+input[type=password]:hover{
+border-color:dodgerblue;
+box-shadow:0 0 8px 0 dodgerBlue;
+}
+label{
+font-size:20px;
+font-weight:bold;
+}
+input[type=submit] {
+background:red;
+border:none;
+color:#fff;
+font-size:20px;
+font-weight:bold;
+margin-top:20px;
+padding:15px;
+cursor:pointer;
+}
+input[type=submit]:hover{
+background: orange;
+}
+
+
+
+</style>
+</head>
+<body>
+<center>
+<div class="wrap">
+<h2><font color="royalblue"> Log In With</font></h2>
+<div class="social-media">
+<button><a href="">Facebook</a></button>&nbsp&nbsp
+<button><a href="">Google</a></button>
+</div>
+<form>
+<label> Username:</label><br>
+<input type="text"    placeholder="e-mail">
+<br><br><br>
+
+<label> Password:</label><br>
+<input type="password" placeholder="password">
+<br><br><br>
+
+
+<input type="submit" value="Log In" ></a>
+<br><br>
+</form>
+
+
+<p> Not a Member? <a href="signup.html">Sign Up Now</a></p>
+<br>
+</div>
+
+
+</center>
+</body>
+
+</html>

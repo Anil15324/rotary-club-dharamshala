@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kanit</title>
+<link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+.icon {
+	float: left;
+	text-align: right;
+}
+.icon i {
+	padding: 27px;
+	font-size: 29px;
+	cursor:pointer;
+}
+.icon a{
+	text-decoration:none;
+	color:black;
+}
+.icon a:hover{
+	color:red;
+}
+.container{
+	width:1170px;
+	margin:0px auto;
+}
+.top {
+	width:100%;
+	float: left;
+	background-color:brown;
+	height:100%;
+	}
+.logo{
+	width:10%;
+	float:left;
+}
+.logo img{
+	width:70%;
+}
+.heading{
+	width:60%;
+	float:left;
+}
+.heading h1 {
+	padding: 20px;
+	letter-spacing: 3px;
+	word-spacing: 12px;
+	text-align: left;
+	font-family: revert;
+	font-size: 30px;
+	color: whitesmoke;
+	letter-spacing: 5px;
+}
+.navigation {
+	width: 100%;
+	float: left;
+}
+.list {
+	list-style: none;
+	padding: 12px 12px;
+	border: 1px solid;
+	width: 99%;
+	margin: 7px -2px;
+	background: black;
+}
+.list li {
+	display: inline;
+	padding: 6px 80px 7px 80px;
+}
+.list li a{
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+	font-weight:bolder;
+	
+	
+}
+.list li a:hover{
+	color:red;
+	
+}
+
+
+.banner {
+	width: 100%;
+	clear: both;
+}
+.left{
+	width:70%;
+	float:left;
+}
+.left img{
+	width:100%;
+}
+.right{
+	width:28%;
+	margin-left:9px;
+	float:left;
+}
+.right img{
+width: 100%;
+}
+.notification{
+background-color:white;
+border-radius:35px 0px;
+padding:10px 15px 50px;
+background-color:lightgrey;
+
+}
+.notification h2{
+color:red;
+border-bottom:1px dashed;
+padding-bottom:5px;
+}
+.marquee{
+font-style: italic;
+}
+.banner p{
+	line-height: 28px;
+	letter-spacing: 1px;
+}
+.footer{
+	 clear:both;
+	 text-align:center;
+ }
+.copyright {
+	text-align: center;
+	letter-spacing: 3px;
+	clear: both;
+	padding: 7px;
+	background: brown;
+	color: white;
+}
+body {
+background-color: lightblue;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+	<!-----------------------header-------------------->
+		<header class="top">			
+		<div class="container">
+				<div class="logo">
+					<img src="love.png">
+				</div>
+				<div class="heading">
+						<h1>ROTARY CLUB DHARAMSHALA</h1>
+				</div>
+				<div class="icon">
+					<a href="https://webxpam.netlify.com/"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+					 <i class="fa fa-facebook" aria-hidden="true"></i>
+					 <i class="fa fa-youtube" aria-hidden="true"></i>
+					 <i class="fa fa-instagram" aria-hidden="true"></i>
+				</div>
+				
+				
+			</div>
+		
+		</header>
+		<div class="navigation">
+		<div class="container">
+					<ul class="list">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="membership.html">Membership</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+					</div>
+				</div>
+		<div class="banner">
+		<div class="container">
+			<div class="left">
+				<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="yash.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="one.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="two.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+			</div>
+			<div class="right">
+				<div class="notification">
+					<h2>Notification</h2>
+					<p class="marquee"><marquee behavior="scroll" direction="up">rotary calender 2019-20<sup>new</sup></marquee></p>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+<!----------------------content-------------------->
+			<div class="banner">
+		<div class="container">
+			<div class="left">
+				<p>What would it take to change the world? Over 1.2 million Rotarians, all over the world, believe it starts with a commitment to Service Above Self. In more than 34,000 clubs worldwide, you will find members volunteering in communities at home and abroad to support education and job training, provide clean water, combat hunger, improve health and sanitation, and eradicate polio.
+
+All Rotary club members have something in common: We take action. As community volunteers, we reach out to neighbors in need. We build, support, and organize. We save lives. We work locally and globally.
+
+Around the world and around the corner, the 1.2 million men and women of Rotary Get involved in their communities, Connect with other professionals, Share their time and experience with young people, Support global causes such as eradicating polio and Use their skills to help others.
+
+Whether you're a veteran volunteer or new to community service, we are looking for people like you. Discover the benefits of joining Rotary.
+
+		
+
+
+</p>
+			</div>
+			<div class="right"><img src="index.jfif">
+			
+
+			</div>
+		</div>
+			</div>
+		
+	<footer class="footer">
+			<div class="copyright">&copyright; copyright 2019 all rights reserved admin</div>
+		</div>
+	
+	</footer>
+	
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
